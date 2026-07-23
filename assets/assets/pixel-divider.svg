@@ -1,0 +1,74 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 65"
+  width="1200"
+  height="65"
+  shape-rendering="crispEdges"
+>
+  <rect width="1200" height="65" fill="#0d1117"/>
+
+  <!-- Alt piksel çizgi -->
+  <rect y="51" width="1200" height="5" fill="#164e63"/>
+  <rect y="56" width="1200" height="3" fill="#1f6f8b"/>
+
+  <!-- Soldan sağa hareket eden bulut -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-180 0"
+      to="1300 0"
+      dur="26s"
+      repeatCount="indefinite"
+    />
+
+    <rect x="10" y="28" width="120" height="18" fill="#dbeafe"/>
+    <rect x="32" y="16" width="42" height="18" fill="#ffffff"/>
+    <rect x="65" y="22" width="42" height="16" fill="#f8fafc"/>
+    <rect x="0" y="35" width="145" height="13" fill="#ffffff"/>
+    <rect x="25" y="48" width="95" height="4" fill="#94a3b8"/>
+  </g>
+
+  <!-- Sağdan sola hareket eden küçük bulut -->
+  <g opacity="0.8">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="1250 4"
+      to="-200 4"
+      dur="34s"
+      repeatCount="indefinite"
+    />
+
+    <rect x="15" y="28" width="85" height="15" fill="#dbeafe"/>
+    <rect x="35" y="18" width="30" height="14" fill="#ffffff"/>
+    <rect x="5" y="34" width="110" height="11" fill="#ffffff"/>
+    <rect x="25" y="45" width="70" height="4" fill="#94a3b8"/>
+  </g>
+
+  <!-- Uçan kuş -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-100 0"
+      to="1300 0"
+      dur="15s"
+      repeatCount="indefinite"
+    />
+
+    <g transform="translate(20 17)">
+      <rect x="0" y="7" width="7" height="7" fill="#f8fafc"/>
+      <rect x="7" y="0" width="7" height="7" fill="#f8fafc"/>
+      <rect x="14" y="7" width="7" height="7" fill="#f8fafc"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="20 17; 20 11; 20 17"
+        dur="0.8s"
+        repeatCount="indefinite"
+      />
+    </g>
+  </g>
+</svg>
