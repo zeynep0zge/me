@@ -1,31 +1,39 @@
 <div align="center">
 
-<!-- RETRO 8-BIT DALGALI BANNER - Canlı neon renkler, PASTEL DEĞİL, daha hareketli -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,15:ff2d95,35:8338ec,55:06ffa5,75:ffd60a,100:0f0c29&height=140&section=header&animation=fadeIn" width="100%" />
+<!-- HAREKETLİ PİKSEL GÖKYÜZÜ -->
+<img src="./assets/pixel-sky.svg" width="100%" alt="Animated pixel sky with clouds, sun and birds" />
 
 <br/>
 
-<!-- DOĞRULANMIŞ PİKSEL ARI ve ÇİÇEK GIF'LERİ -->
+<!-- PİKSEL ARI VE ÇİÇEK GIF'LERİ -->
 <img src="https://media.tenor.com/z9W_T-UYRVsAAAAj/bee-pixel.gif" width="70" />
 <img src="https://media.tenor.com/H3ldQhigflkAAAAj/pixel-flower-cute-pixel.gif" width="70" />
 <img src="https://media.tenor.com/z9W_T-UYRVsAAAAj/bee-pixel.gif" width="70" />
 <img src="https://media.tenor.com/H3ldQhigflkAAAAj/pixel-flower-cute-pixel.gif" width="70" />
 
-<!-- PİKSEL FONTLU BÜYÜK BAŞLIK (Press Start 2P) - neon renkler -->
+<!-- PİKSEL FONTLU BÜYÜK BAŞLIK -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=34&duration=2500&pause=800&color=FF2D95&center=true&vCenter=true&width=700&height=70&lines=ZEYNEP+%C3%96ZGE" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=34&duration=2500&pause=800&color=FF2D95&center=true&vCenter=true&width=700&height=70&lines=ZEYNEP+%C3%96ZGE"
+    alt="Zeynep Özge"
+  />
 </a>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3200&pause=1000&color=06FFA5&center=true&vCenter=true&width=650&lines=%3E+Full+Stack+AI+Developer_;%3E+Clean+Architecture+%26+AI_;%3E+Building+FlowDesk...;%3E+Data+speaks+to+those+who+ask_" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3200&pause=1000&color=06FFA5&center=true&vCenter=true&width=650&lines=%3E+Full+Stack+AI+Developer_;%3E+Clean+Architecture+%26+AI_;%3E+Building+FlowDesk...;%3E+Data+speaks+to+those+who+ask_"
+    alt="Typing animation"
+  />
 </a>
 
 <br/>
 
-<!-- ALT NEON DALGALI ÇİZGİ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffd60a,25:06ffa5,50:8338ec,75:ff2d95,100:ffd60a&height=60&section=header&animation=fadeIn" width="100%" />
+<!-- ALT HAREKETLİ PİKSEL AYIRICI -->
+<img src="./assets/pixel-divider.svg" width="100%" alt="Animated pixel cloud divider" />
 
 <br/><br/>
+
+</div>
 
 <!-- SOSYAL ROZETLER -->
 <a href="https://linkedin.com/in/zeynepozge">
