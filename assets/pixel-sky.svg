@@ -1,0 +1,161 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 180"
+  width="1200"
+  height="180"
+  shape-rendering="crispEdges"
+>
+  <!-- Arka plan -->
+  <rect width="1200" height="180" fill="#0d1117"/>
+
+  <!-- Hafif piksel gökyüzü çizgileri -->
+  <rect y="130" width="1200" height="4" fill="#162338"/>
+  <rect y="134" width="1200" height="2" fill="#1f3550"/>
+
+  <!-- HAREKETLİ PİKSEL GÜNEŞ -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 0 6; 0 0"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+
+    <!-- Güneş ışınları -->
+    <rect x="997" y="12" width="8" height="16" fill="#ffd60a"/>
+    <rect x="997" y="82" width="8" height="16" fill="#ffd60a"/>
+    <rect x="952" y="51" width="16" height="8" fill="#ffd60a"/>
+    <rect x="1034" y="51" width="16" height="8" fill="#ffd60a"/>
+
+    <rect x="965" y="22" width="10" height="10" fill="#ffd60a"/>
+    <rect x="1027" y="22" width="10" height="10" fill="#ffd60a"/>
+    <rect x="965" y="78" width="10" height="10" fill="#ffd60a"/>
+    <rect x="1027" y="78" width="10" height="10" fill="#ffd60a"/>
+
+    <!-- Güneş gövdesi -->
+    <rect x="976" y="30" width="50" height="50" fill="#ffb703"/>
+    <rect x="968" y="40" width="66" height="30" fill="#ffb703"/>
+    <rect x="986" y="38" width="28" height="28" fill="#ffd60a"/>
+
+    <!-- Yüz -->
+    <rect x="986" y="50" width="6" height="6" fill="#7a4b00"/>
+    <rect x="1010" y="50" width="6" height="6" fill="#7a4b00"/>
+    <rect x="994" y="64" width="14" height="4" fill="#7a4b00"/>
+  </g>
+
+  <!-- BÜYÜK HAREKETLİ BULUT -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-300 10"
+      to="1300 10"
+      dur="25s"
+      repeatCount="indefinite"
+    />
+
+    <rect x="30" y="70" width="150" height="35" fill="#dbeafe"/>
+    <rect x="55" y="50" width="55" height="25" fill="#ffffff"/>
+    <rect x="100" y="60" width="60" height="20" fill="#f1f5f9"/>
+    <rect x="20" y="80" width="180" height="20" fill="#ffffff"/>
+    <rect x="45" y="100" width="130" height="8" fill="#94a3b8"/>
+  </g>
+
+  <!-- ORTA BULUT -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="1250 25"
+      to="-300 25"
+      dur="32s"
+      repeatCount="indefinite"
+    />
+
+    <rect x="20" y="80" width="120" height="28" fill="#e0f2fe"/>
+    <rect x="45" y="62" width="45" height="20" fill="#ffffff"/>
+    <rect x="80" y="70" width="45" height="18" fill="#f8fafc"/>
+    <rect x="10" y="88" width="150" height="18" fill="#ffffff"/>
+    <rect x="35" y="106" width="100" height="6" fill="#94a3b8"/>
+  </g>
+
+  <!-- KÜÇÜK BULUT -->
+  <g opacity="0.85">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-180 65"
+      to="1280 65"
+      dur="38s"
+      repeatCount="indefinite"
+    />
+
+    <rect x="20" y="55" width="90" height="22" fill="#dbeafe"/>
+    <rect x="38" y="42" width="35" height="18" fill="#ffffff"/>
+    <rect x="10" y="62" width="120" height="16" fill="#ffffff"/>
+    <rect x="32" y="78" width="75" height="5" fill="#94a3b8"/>
+  </g>
+
+  <!-- HAREKETLİ PİKSEL KUŞLAR -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-220 0"
+      to="1350 0"
+      dur="18s"
+      repeatCount="indefinite"
+    />
+
+    <!-- Birinci kuş -->
+    <g transform="translate(20 42)">
+      <rect x="0" y="8" width="8" height="8" fill="#f8fafc"/>
+      <rect x="8" y="0" width="8" height="8" fill="#f8fafc"/>
+      <rect x="16" y="8" width="8" height="8" fill="#f8fafc"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="20 42; 20 34; 20 42"
+        dur="1s"
+        repeatCount="indefinite"
+      />
+    </g>
+
+    <!-- İkinci kuş -->
+    <g transform="translate(75 65)">
+      <rect x="0" y="8" width="7" height="7" fill="#cbd5e1"/>
+      <rect x="7" y="1" width="7" height="7" fill="#cbd5e1"/>
+      <rect x="14" y="8" width="7" height="7" fill="#cbd5e1"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="75 65; 75 58; 75 65"
+        dur="1.2s"
+        repeatCount="indefinite"
+      />
+    </g>
+
+    <!-- Üçüncü kuş -->
+    <g transform="translate(125 35)">
+      <rect x="0" y="7" width="6" height="6" fill="#ffffff"/>
+      <rect x="6" y="1" width="6" height="6" fill="#ffffff"/>
+      <rect x="12" y="7" width="6" height="6" fill="#ffffff"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="125 35; 125 29; 125 35"
+        dur="0.9s"
+        repeatCount="indefinite"
+      />
+    </g>
+  </g>
+
+  <!-- Alt piksel zemin -->
+  <rect y="145" width="1200" height="35" fill="#0d1117"/>
+  <rect y="145" width="1200" height="5" fill="#1f6f8b"/>
+  <rect y="150" width="1200" height="3" fill="#164e63"/>
+</svg>
