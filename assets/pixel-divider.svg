@@ -1,74 +1,222 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 1200 65"
+  viewBox="0 0 1200 120"
   width="1200"
-  height="65"
+  height="120"
   shape-rendering="crispEdges"
 >
-  <rect width="1200" height="65" fill="#0d1117"/>
+  <!-- Arka plan -->
+  <rect width="1200" height="120" fill="#0d1117"/>
 
-  <!-- Alt piksel çizgi -->
-  <rect y="51" width="1200" height="5" fill="#164e63"/>
-  <rect y="56" width="1200" height="3" fill="#1f6f8b"/>
+  <!-- Üst ince çizgi -->
+  <rect x="0" y="18" width="1200" height="4" fill="#2c8ca8"/>
+  <rect x="0" y="22" width="1200" height="2" fill="#164e63"/>
 
-  <!-- Soldan sağa hareket eden bulut -->
-  <g>
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="-180 0"
-      to="1300 0"
-      dur="26s"
-      repeatCount="indefinite"
-    />
+  <!-- Hafif parıltılı gece -->
+  <g opacity="0.9">
+    <!-- yıldızlar -->
+    <g>
+      <rect x="85" y="42" width="4" height="4" fill="#fff7b1">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="260" y="33" width="4" height="4" fill="#fff7b1">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="432" y="48" width="4" height="4" fill="#fff7b1">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="620" y="36" width="4" height="4" fill="#fff7b1">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="810" y="46" width="4" height="4" fill="#fff7b1">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="990" y="38" width="4" height="4" fill="#fff7b1">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="1110" y="30" width="4" height="4" fill="#fff7b1">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="1.7s" repeatCount="indefinite"/>
+      </rect>
+    </g>
 
-    <rect x="10" y="28" width="120" height="18" fill="#dbeafe"/>
-    <rect x="32" y="16" width="42" height="18" fill="#ffffff"/>
-    <rect x="65" y="22" width="42" height="16" fill="#f8fafc"/>
-    <rect x="0" y="35" width="145" height="13" fill="#ffffff"/>
-    <rect x="25" y="48" width="95" height="4" fill="#94a3b8"/>
+    <!-- pırıltılar -->
+    <g>
+      <g transform="translate(170 58)">
+        <rect x="4" y="0" width="4" height="12" fill="#ffd6f6"/>
+        <rect x="0" y="4" width="12" height="4" fill="#ffd6f6"/>
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/>
+      </g>
+
+      <g transform="translate(520 54)">
+        <rect x="4" y="0" width="4" height="12" fill="#b8fff1"/>
+        <rect x="0" y="4" width="12" height="4" fill="#b8fff1"/>
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.1s" repeatCount="indefinite"/>
+      </g>
+
+      <g transform="translate(890 60)">
+        <rect x="4" y="0" width="4" height="12" fill="#ffd6f6"/>
+        <rect x="0" y="4" width="12" height="4" fill="#ffd6f6"/>
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" repeatCount="indefinite"/>
+      </g>
+    </g>
   </g>
 
-  <!-- Sağdan sola hareket eden küçük bulut -->
-  <g opacity="0.8">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="1250 4"
-      to="-200 4"
-      dur="34s"
-      repeatCount="indefinite"
-    />
+  <!-- Bahçe zemini -->
+  <rect x="0" y="84" width="1200" height="36" fill="#13231a"/>
+  <rect x="0" y="84" width="1200" height="8" fill="#2e6a3e"/>
+  <rect x="0" y="92" width="1200" height="8" fill="#3f8a51"/>
+  <rect x="0" y="100" width="1200" height="20" fill="#21452d"/>
 
-    <rect x="15" y="28" width="85" height="15" fill="#dbeafe"/>
-    <rect x="35" y="18" width="30" height="14" fill="#ffffff"/>
-    <rect x="5" y="34" width="110" height="11" fill="#ffffff"/>
-    <rect x="25" y="45" width="70" height="4" fill="#94a3b8"/>
+  <!-- Çim detayları -->
+  <g>
+    <rect x="40" y="80" width="4" height="10" fill="#79d279"/>
+    <rect x="52" y="78" width="4" height="12" fill="#8be28b"/>
+    <rect x="64" y="81" width="4" height="9" fill="#79d279"/>
+    <rect x="210" y="79" width="4" height="11" fill="#8be28b"/>
+    <rect x="222" y="77" width="4" height="13" fill="#79d279"/>
+    <rect x="234" y="80" width="4" height="10" fill="#8be28b"/>
+    <rect x="425" y="79" width="4" height="11" fill="#79d279"/>
+    <rect x="437" y="77" width="4" height="13" fill="#8be28b"/>
+    <rect x="449" y="81" width="4" height="9" fill="#79d279"/>
+    <rect x="700" y="80" width="4" height="10" fill="#79d279"/>
+    <rect x="712" y="77" width="4" height="13" fill="#8be28b"/>
+    <rect x="724" y="81" width="4" height="9" fill="#79d279"/>
+    <rect x="945" y="79" width="4" height="11" fill="#79d279"/>
+    <rect x="957" y="77" width="4" height="13" fill="#8be28b"/>
+    <rect x="969" y="81" width="4" height="9" fill="#79d279"/>
+    <rect x="1105" y="79" width="4" height="11" fill="#8be28b"/>
+    <rect x="1117" y="77" width="4" height="13" fill="#79d279"/>
+    <rect x="1129" y="80" width="4" height="10" fill="#8be28b"/>
   </g>
 
-  <!-- Uçan kuş -->
+  <!-- Çiçekler -->
   <g>
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="-100 0"
-      to="1300 0"
-      dur="15s"
-      repeatCount="indefinite"
-    />
+    <!-- flower 1 -->
+    <rect x="120" y="88" width="4" height="14" fill="#6bc46b"/>
+    <rect x="116" y="84" width="4" height="4" fill="#ff9ecf"/>
+    <rect x="120" y="80" width="4" height="4" fill="#ff9ecf"/>
+    <rect x="124" y="84" width="4" height="4" fill="#ff9ecf"/>
+    <rect x="120" y="84" width="4" height="4" fill="#fff4a8"/>
 
-    <g transform="translate(20 17)">
-      <rect x="0" y="7" width="7" height="7" fill="#f8fafc"/>
-      <rect x="7" y="0" width="7" height="7" fill="#f8fafc"/>
-      <rect x="14" y="7" width="7" height="7" fill="#f8fafc"/>
+    <!-- flower 2 -->
+    <rect x="348" y="88" width="4" height="14" fill="#6bc46b"/>
+    <rect x="344" y="84" width="4" height="4" fill="#ffd6f6"/>
+    <rect x="348" y="80" width="4" height="4" fill="#ffd6f6"/>
+    <rect x="352" y="84" width="4" height="4" fill="#ffd6f6"/>
+    <rect x="348" y="84" width="4" height="4" fill="#fff4a8"/>
 
+    <!-- flower 3 -->
+    <rect x="575" y="88" width="4" height="14" fill="#6bc46b"/>
+    <rect x="571" y="84" width="4" height="4" fill="#a8f0ff"/>
+    <rect x="575" y="80" width="4" height="4" fill="#a8f0ff"/>
+    <rect x="579" y="84" width="4" height="4" fill="#a8f0ff"/>
+    <rect x="575" y="84" width="4" height="4" fill="#fff4a8"/>
+
+    <!-- flower 4 -->
+    <rect x="820" y="88" width="4" height="14" fill="#6bc46b"/>
+    <rect x="816" y="84" width="4" height="4" fill="#ff9ecf"/>
+    <rect x="820" y="80" width="4" height="4" fill="#ff9ecf"/>
+    <rect x="824" y="84" width="4" height="4" fill="#ff9ecf"/>
+    <rect x="820" y="84" width="4" height="4" fill="#fff4a8"/>
+
+    <!-- flower 5 -->
+    <rect x="1048" y="88" width="4" height="14" fill="#6bc46b"/>
+    <rect x="1044" y="84" width="4" height="4" fill="#ffd6f6"/>
+    <rect x="1048" y="80" width="4" height="4" fill="#ffd6f6"/>
+    <rect x="1052" y="84" width="4" height="4" fill="#ffd6f6"/>
+    <rect x="1048" y="84" width="4" height="4" fill="#fff4a8"/>
+  </g>
+
+  <!-- Yavru kediler -->
+  <g>
+    <!-- Kedi 1 -->
+    <g transform="translate(250 68)">
       <animateTransform
         attributeName="transform"
         type="translate"
-        values="20 17; 20 11; 20 17"
-        dur="0.8s"
+        values="250 68;250 66;250 68"
+        dur="2.8s"
         repeatCount="indefinite"
       />
+      <!-- kuyruk -->
+      <rect x="0" y="16" width="4" height="12" fill="#f5d6c6"/>
+      <rect x="4" y="12" width="4" height="4" fill="#f5d6c6"/>
+
+      <!-- gövde -->
+      <rect x="8" y="12" width="24" height="16" fill="#f5d6c6"/>
+      <!-- baş -->
+      <rect x="12" y="0" width="16" height="16" fill="#f5d6c6"/>
+      <!-- kulaklar -->
+      <rect x="12" y="-4" width="4" height="4" fill="#f5d6c6"/>
+      <rect x="24" y="-4" width="4" height="4" fill="#f5d6c6"/>
+      <rect x="13" y="-3" width="2" height="2" fill="#ffb7c5"/>
+      <rect x="25" y="-3" width="2" height="2" fill="#ffb7c5"/>
+
+      <!-- yüz -->
+      <rect x="16" y="6" width="2" height="2" fill="#2d2d2d"/>
+      <rect x="22" y="6" width="2" height="2" fill="#2d2d2d"/>
+      <rect x="19" y="10" width="2" height="2" fill="#2d2d2d"/>
+
+      <!-- patiler -->
+      <rect x="10" y="28" width="4" height="4" fill="#f5d6c6"/>
+      <rect x="26" y="28" width="4" height="4" fill="#f5d6c6"/>
+    </g>
+
+    <!-- Kedi 2 -->
+    <g transform="translate(860 70)">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="860 70;860 68;860 70"
+        dur="2.4s"
+        repeatCount="indefinite"
+      />
+      <!-- kuyruk -->
+      <rect x="28" y="12" width="4" height="12" fill="#d9d9e8"/>
+      <rect x="24" y="8" width="4" height="4" fill="#d9d9e8"/>
+
+      <!-- gövde -->
+      <rect x="0" y="12" width="24" height="16" fill="#d9d9e8"/>
+      <!-- baş -->
+      <rect x="4" y="0" width="16" height="16" fill="#d9d9e8"/>
+      <!-- kulaklar -->
+      <rect x="4" y="-4" width="4" height="4" fill="#d9d9e8"/>
+      <rect x="16" y="-4" width="4" height="4" fill="#d9d9e8"/>
+      <rect x="5" y="-3" width="2" height="2" fill="#ffb7c5"/>
+      <rect x="17" y="-3" width="2" height="2" fill="#ffb7c5"/>
+
+      <!-- yüz -->
+      <rect x="8" y="6" width="2" height="2" fill="#2d2d2d"/>
+      <rect x="14" y="6" width="2" height="2" fill="#2d2d2d"/>
+      <rect x="11" y="10" width="2" height="2" fill="#2d2d2d"/>
+
+      <!-- patiler -->
+      <rect x="2" y="28" width="4" height="4" fill="#d9d9e8"/>
+      <rect x="18" y="28" width="4" height="4" fill="#d9d9e8"/>
+    </g>
+  </g>
+
+  <!-- Ateşböceği gibi küçük ışıklar -->
+  <g opacity="0.9">
+    <g transform="translate(170 72)">
+      <rect x="0" y="0" width="4" height="4" fill="#ffe96a">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="translate(510 76)">
+      <rect x="0" y="0" width="4" height="4" fill="#ffe96a">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="translate(742 70)">
+      <rect x="0" y="0" width="4" height="4" fill="#ffe96a">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="translate(1002 74)">
+      <rect x="0" y="0" width="4" height="4" fill="#ffe96a">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.9s" repeatCount="indefinite"/>
+      </rect>
     </g>
   </g>
 </svg>
