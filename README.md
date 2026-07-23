@@ -36,15 +36,19 @@
 </div>
 
 <!-- SOSYAL ROZETLER -->
-<a href="https://linkedin.com/in/zeynepozge">
-  <img src="https://img.shields.io/badge/LinkedIn-ffb3c1?style=for-the-badge&logo=linkedin&logoColor=2d2d2d" />
-</a>
-<a href="mailto:zeynepozge@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-a8e6cf?style=for-the-badge&logo=gmail&logoColor=2d2d2d" />
-</a>
-<a href="https://github.com/zeynep0zge">
-  <img src="https://img.shields.io/badge/GitHub-c8f7dc?style=for-the-badge&logo=github&logoColor=2d2d2d" />
-</a>
+<p align="center">
+  <a href="https://linkedin.com/in/zeynepozge">
+    <img src="https://img.shields.io/badge/LinkedIn-ffb3c1?style=for-the-badge&logo=linkedin&logoColor=2d2d2d" />
+  </a>
+
+  <a href="mailto:zeynepozge@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-a8e6cf?style=for-the-badge&logo=gmail&logoColor=2d2d2d" />
+  </a>
+
+  <a href="https://github.com/zeynep0zge">
+    <img src="https://img.shields.io/badge/GitHub-c8f7dc?style=for-the-badge&logo=github&logoColor=2d2d2d" />
+  </a>
+</p>
 
 </div>
 
