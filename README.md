@@ -29,7 +29,7 @@
 <br/>
 
 <!-- ALT HAREKETLİ PİKSEL AYIRICI -->
-<img src="./assets/pixel-divider.svg" width="100%" alt="Animated pixel cloud divider" />
+<img src="https://raw.githubusercontent.com/zeynep0zge/zeynep0zge/main/assets/pixel-garden-divider.svg?v=2" width="100%" alt="Animated pixel garden divider" />
 
 <br/><br/>
 
